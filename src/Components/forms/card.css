@@ -1,0 +1,215 @@
+
+.coli{
+    flex: 200;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    padding: 0 10px;
+    float: inline-start;
+    margin:0px 25px 40px 25px ;
+    width: 300px;
+    background-color: white;
+}
+.con{
+    width: 280px;
+    margin: 0px 25px 40px 25px;
+    
+}
+.image{
+    width:100%;
+    height: 380px;
+    object-fit: cover;
+    border-radius: 7px;
+    margin: 5px;
+    
+
+}
+.body{
+text-align: justify;
+}
+.div1{
+    margin: 20px;
+    padding: 20px;
+}
+.heading{
+    padding: 10px;
+    text-align: center;
+    color:black;
+}
+.r0w{
+    text-align: justify;
+}
+.sucess{
+    background-color: lightblue;
+    padding: 50px;
+    text-align: center;
+    font: size 35px;
+    font-size: larger;
+}
+#button1works{
+    width: 250px;
+    background-color: green;
+    color: white;
+    height: 45px;
+    border-color:green;
+    border-radius: 5px;
+}
+.sucess1{
+    background-color: white;
+    font-weight: lighter;
+    color: darkgray;
+
+}
+.sucess2{
+    text-align:justify;
+    padding: 100px;
+}
+.imageworks{
+    width: 450px;
+    border-width: 1px solid;
+    border-radius: 10px;
+}
+.sucess3{
+    text-align: center;
+    padding: 50px;
+}
+
+@media(max-width:450px){
+    .sucess{
+        background-color: lightblue;
+        padding: 50px;
+        text-align: center;
+        font: size 25px;
+        font-size: medium;
+    }
+    #button1works{
+        width: 250px;
+        background-color: green;
+        color: white;
+        height: 45px;
+        border-color:green;
+        border-radius: 5px;
+    }
+    .sucess1{
+        background-color: white;
+        font-weight: lighter;
+        color: darkgray;
+        font-size: small;
+    
+    }
+    .sucess2{
+        text-align:justify;
+        padding: 50px;
+    }
+    .imageworks{
+        width: 250px;
+        border-width: 1px solid;
+        border-radius: 10px;
+    }
+    #sucess3{
+        text-align:justify;
+        padding: 20px;
+        margin: 5px;
+        
+    }
+    #h2{
+        text-align: center;
+    }
+    .div1{
+        margin: 10px;
+        padding: 10px;
+    }
+
+}
+@media(max-width:850px) and (min-width:500px){
+    .imageworks{
+        width: 450px;
+        border-width: 1px solid;
+        border-radius: 10px;
+    }
+    .sucess1{
+        background-color: white;
+        font-weight: lighter;
+        color: darkgray;
+        font-size: small;
+    
+    }
+    .sucess2{
+        text-align:justify;
+        padding: 50px;
+    }
+    #sucess3{
+        text-align:justify;
+        padding: 20px;
+        margin: 5px;
+        
+    }
+    #h2{
+        text-align: center;
+    }
+    .div1{
+        margin: 10px;
+        padding: 10px;
+    }
+    .sucess{
+        background-color: lightblue;
+        padding: 50px;
+        text-align: center;
+        font: size 25px;
+        font-size: medium;
+    }
+
+}
+@media(max-width:280px){
+    .sucess{
+        background-color: lightblue;
+        padding: 50px;
+        text-align: center;
+        font: size 15px;
+        font-size: medium;
+    }
+    .sucess h4{
+        font-size:medium;
+    }
+    #button1works{
+        width: 200px;
+        background-color: green;
+        color: white;
+        height: 45px;
+        border-color:green;
+        border-radius: 5px;
+    }
+    .sucess1{
+        background-color: white;
+        font-weight: lighter;
+        color: darkgray;
+        font-size: xx-small;
+    
+    }
+    .sucess2{
+        text-align:justify;
+        padding: 20px;
+    }
+    .imageworks{
+        width: 200px;
+        border-width: 1px solid;
+        border-radius: 10px;
+    }
+    #sucess3{
+        text-align:justify;
+        padding: 10px;
+        margin: 5px;
+        
+    }
+    #h2{
+        text-align: center;
+    }
+    .div1{
+        margin: 2px;
+        padding: 2px;
+        width: 230px;
+    }
+.heading{
+    font-size: smaller;
+}
+}

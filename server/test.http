@@ -1,0 +1,8 @@
+POST http://localhost:4000/app/registration
+Content-Type: :application/json
+
+{
+    "username":"naliana",
+    "password":"Nalian",
+    "RememberMe":true,
+}

@@ -1,0 +1,54 @@
+#container2{
+    background-color: white;
+    padding: 20px;
+    align-content: center;
+    width: 650px;
+    text-align: justify;
+    border-radius: 10px;
+}
+#error{
+    color:red;
+    font: large;
+}
+@media(max-width:450px){
+#container2{
+    background-color: white;
+    padding: 20px;
+    align-content: center;
+    width: 350px;
+    text-align: justify;
+    border-radius: 5px;
+}
+#regh4{
+    font-size: medium;
+}
+    
+}
+@media(max-width:280px){
+    #container2{
+        background-color: white;
+        padding: 10px;
+        align-content: center;
+        width: 250px;
+        text-align: justify;
+        border-radius: 5px;
+    }
+    #regh4{
+        font-size: small;
+    }
+}
+
+@media(max-width:850px) and (min-width:500px){
+    #container2{
+        background-color: white;
+        padding: 20px;
+        align-content: center;
+        width: 500px;
+        text-align: justify;
+        border-radius: 5px;
+    }
+    #regh4{
+        font-size: medium;
+    }
+
+}

@@ -1,0 +1,27 @@
+
+.second{
+    color: blue;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 100;
+    font: bold;
+    font-family: sans-serif;
+}
+.third{
+    margin-right: 1em !important;
+    color: #000;
+}
+.third:hover{
+    color:green;
+}
+.fouth{
+    justify-content: flex-end;
+    font-size: large;
+}
+
+.first{
+    background-color:whitesmoke;
+    border-bottom: #000;
+    padding: 20px;
+
+}
