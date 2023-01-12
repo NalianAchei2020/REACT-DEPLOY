@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# THIS A BUSINESS PLAN GENERATOR APP BUILD WITH REACT, NODEJS, BOOTSTRAP AND MONGODB
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
