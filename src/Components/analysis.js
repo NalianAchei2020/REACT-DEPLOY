@@ -1,5 +1,4 @@
 
-import './analysis.css';
 import { Carousel } from 'react-bootstrap';
 import { useState } from 'react';
 import {Link} from 'react-router-dom';
@@ -9,14 +8,14 @@ export const Analysis = () =>{
     const handleSelect = (selectedIndex, e) => {setindex(selectedIndex);};
     return(
         <div>
-            <div className="container-fluid p-10" id="conana1">
-     <div className="description" >
+            <div className="container-fluid p-10 container1" id="conana1">
+     <div className="description1" >
          <h6>3000 business owners, accountants, entrepreneurs and students use EasyPlan
               to write and manage their business plans.</h6>
          <h6>EasyPlan makes it easy for you to think through every aspect of your business — 
              so you're twice as likely to succeed.</h6>
      </div><br></br><br></br>
-     <div className="container-md p-5 " id="conana2">
+     <div className="container-md p-5 container1 " id="conana2">
      <div className="row feature-section">
             <div className="col col-md-4 col-sm-12 left-side">
             <div className="img-holder">

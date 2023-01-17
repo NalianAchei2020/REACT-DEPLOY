@@ -1,12 +1,12 @@
 
 import {Navbar, Nav} from 'react-bootstrap';
-import './Navbar.css';
 
 export const Header = ()=>{
     return(
        <>
+
        <Navbar bg="whitesmoke" expand="sm" collapseOnSelect sticky='top' className='first'>
-           <Navbar.Brand className='second'><h3></h3></Navbar.Brand> 
+           <Navbar.Brand className='second'></Navbar.Brand> 
            <Navbar.Toggle/>
            <Navbar.Collapse className='fouth'>
            <Nav>

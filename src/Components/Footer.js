@@ -1,5 +1,5 @@
 import {Link} from 'react-router-dom';
-import './FOOTER.css';
+
 export const Footer = ()=>{
     return(
         <>
@@ -21,8 +21,8 @@ export const Footer = ()=>{
             <div className="col-sm-4">
                 <h6 className='footH'>SOCIAL MEDIA</h6>
                 <hr/>
-                <p><Link to='/instagram'style={{color:"white", textDecoration:"none"}}>Instagram</Link><br/></p>
-                <p><Link to='/facebook' style={{color:"white", textDecoration:"none"}}>Facebook</Link><br/></p>
+                <p><Link to='/www.instagramcom'style={{color:"white", textDecoration:"none"}}>Instagram</Link><br/></p>
+                <p><Link to='/facebook.com' style={{color:"white", textDecoration:"none"}}>Facebook</Link><br/></p>
             </div>
         </div>
         </center>

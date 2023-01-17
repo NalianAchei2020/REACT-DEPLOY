@@ -1,7 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import {Link} from 'react-router-dom';
 import "./form.css";
-import {useRef, useState, useEffect} from 'react'
+import {useRef, useState,} from 'react'
 import {useForm} from 'react-hook-form';
 //import jsPDF from 'jspdf';
 import {useReactToPrint}  from 'react-to-print';
@@ -9,7 +9,7 @@ import {ChevronLeft} from '@material-ui/icons';
 import 'chart.js/auto';
 import {Chart} from 'react-chartjs-2';
  export const Multistep = ()=>{
-     //connect to backend
+     
      //set variables
      const [comname, setcomname] = useState('')
     const [adress, setadress] = useState('')
@@ -106,7 +106,6 @@ const [cost2, setcost2] = useState()
     const COGS = parseInt(year1)+ parseInt(year2) +parseInt(year3);
     const totalrevenue = parseInt(yr1) + parseInt(yr2) + parseInt(yr3); 
     const gross = parseInt(totalrevenue) - parseInt(COGS);
-    const net = parseInt(totalrevenue) - parseInt(totalexpense);
     const avegross = parseInt(gross)/3;
     const averevenue = parseInt(totalrevenue)/3;
     const grossmargin = (parseInt(avegross)/parseInt(averevenue))*100;

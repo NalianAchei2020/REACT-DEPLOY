@@ -3,7 +3,7 @@
     padding: 50px;
     margin-top: auto;
     text-align: justify;
-    font-size: medium;
+    font-size: 1.5rem;
 }
 #maincontainer{
     border-radius: 10px;
@@ -59,9 +59,10 @@
 .new-btn{
     width: 850px;
     height: 50px;
-    background-color:blue;
-    color: white;
+    background-color:lightblue;
+    color: black;
     border-radius: 10px;
+    font-weight: bold;
 }
 @media(max-width:450px){
     #textplan{

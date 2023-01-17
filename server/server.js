@@ -7,23 +7,22 @@ const bcrypt = require('bcrypt')
 const jwt = require('jsonwebtoken')
 const bodyParser = require('body-parser')
 dotenv.config()
-mongoose.connect(process.env.MONGODB_URL, ()=> console.log('Database Connected'),
+mongoose.connect(process.env.MONGODB_URL, 
 {
     useNewUrlParser: true,
     useUnifiedTopology: true,
-    useCreateIndex:true,
 }
-)
+).then(()=>{
+    console.log('Connected to mongodb');
+})
+.catch((error)=>{
+    console.log(error.reason);
+})
 //
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(express.json())
 app.use(bodyParser.json())
 app.use(cors())
-/*app.use(function (req, res) {
-  res.setHeader('Content-Type', 'application/json')
-  res.write('you posted:\n')
-  res.end();
-})*/
 
 app.get('/', (req, res)=>{
 
