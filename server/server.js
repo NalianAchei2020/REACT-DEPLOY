@@ -7,16 +7,16 @@ const bcrypt = require('bcrypt')
 const jwt = require('jsonwebtoken')
 const bodyParser = require('body-parser')
 dotenv.config()
-mongoose.connect(process.env.MONGODB_URL, 
-{
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-}
-).then(()=>{
-    console.log('Connected to mongodb');
-})
-.catch((error)=>{
-    console.log(error.reason);
+
+mongoose.set("strictQuery", false);
+
+mongoose.connect(process.env.MONGODB_URL, (err)=>{
+    if(err){
+        console.log(err)
+    }
+    else
+   { console.log("connected to database");}
+
 })
 //
 app.use(bodyParser.urlencoded({ extended: false }))
@@ -80,5 +80,11 @@ app.post('/login', async(req, res) =>{
     
 })
 
+// step hiroku
+if(process.env.NODE_ENV === "production"){
+    app.use(express.static("client/build"));
+    
+}
 
-app.listen(4000, ()=>console.log("Server is up and running on port 4000"))
+
+app.listen(process.env.PORT || 4000, ()=>console.log("Server is up and running on port 4000"))

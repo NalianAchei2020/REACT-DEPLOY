@@ -1,8 +1,6 @@
 {
   "name": "my-project",
   "version": "0.1.0",
-  "private": true,
-  "proxy": "http://localhost:3001/register",
   "dependencies": {
     "@chakra-ui/button": "^1.5.1",
     "@hookform/devtools": "^4.0.1",
@@ -28,6 +26,7 @@
     "jquery": "^3.6.0",
     "jspdf": "^2.4.0",
     "mysql2": "^2.3.3",
+    "path": "^0.12.7",
     "props": "^0.3.0",
     "react": "^17.0.2",
     "react-bootstrap": "^2.0.4",

@@ -1,6 +1,8 @@
 {
   "name": "server",
   "version": "1.0.0",
+  "private": true,
+  "proxy": "http://localhost:3001/register",
   "description": "Sign Up Application",
   "main": "server.js",
   "scripts": {
