@@ -69,7 +69,7 @@ const postname = async (e) => {
         return;
     }
     try{
-     const response = await axios.post("http://localhost:4000/registration", 
+     const response = await axios.post("https://plan-backend.onrender.com/registration", 
      JSON.stringify({username:username, password:password}), 
      {
          headers: {'Content-Type': 'application/json'},
