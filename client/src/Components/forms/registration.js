@@ -5,7 +5,7 @@ import {Link, Navigate} from 'react-router-dom';
 import {CheckCircle, Clear, ErrorOutline} from '@material-ui/icons';
 import './reg.css'
 
-const USER_REGEX = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,})+$/;
+const USER_REGEX = /^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,})+$/;
 
 const PASS_REGEX = /^(?=.*[\d])(?=.*[A-Z])(?=.*[a-z])(?=.*[!@#$%^&*])[\w!@#$%^&*]{8,}$/
 
