@@ -1,0 +1,386 @@
+
+.second{
+    color: blue;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 100;
+    font: bold;
+    font-family: sans-serif;
+}
+.third{
+    margin-right: 1em !important;
+    color: #000;
+}
+.third:hover{
+    color:green;
+}
+.fouth{
+    justify-content: flex-end;
+    font-size: large;
+    
+}
+
+.first{
+    background-color:whitesmoke;
+    border-bottom: #000;
+    padding: 20px;
+
+}
+/*home page
+analysis*/
+.description1{
+    left:5px;
+    top: 20px;;
+    position:relative;
+    transform:translate(20px, 10px);
+    text-align: center;
+    font-size: 200px;
+    line-height: normal;
+}
+#conana1{
+    background-color: cornsilk;
+    height: 1385px;
+}
+#conana2{
+    background-color: white;
+    width: 900px;
+}
+.container{
+    left:5px;
+    top: 20px;;
+    position:relative;
+    transform:translate(20px, 10px);
+    text-align: center;
+    font-size: 20px;
+    line-height: normal;
+}
+.ana1{
+    padding: 50px;
+}
+
+#ana{
+    padding: 50px;
+}
+.lastdiv{
+    padding-top: 180px;
+
+}
+
+@media(max-width:450px){
+    .container{
+        width: 50%;
+        left:5px;
+    top: 20px;;
+    position:relative;
+    transform:translate(20px, 10px);
+    text-align: center;
+    font-size: 20px;
+    line-height: normal;
+        
+    }
+    .lastdiv{
+        padding-top: 5px;
+    
+    }
+    
+    .last{
+        font-size: small;
+    }
+    .description1{
+        left:2px;
+        top: 15px;;
+        position:relative;
+        transform:translate(20px, 10px);
+        text-align: center;
+        font-size: smaller;
+        line-height: normal;
+        padding: 10px;
+        margin: 10px;
+        width: 300px;
+    }
+    #conana1{
+        background-color: cornsilk;
+        height: 2110px;
+    }
+    .ana1{
+        font-size: small;
+    }
+    #conana2{
+        background-color: white;
+        width: 300px;
+    }
+    .img-fluid{
+        height: 100px;
+        align-items: centers;
+
+    }
+    .col-md-8{
+        font-size: small;
+        font:5px;
+        text-align: justify;
+        padding: 10px;
+        margin: 10px;
+    }
+    .ana1{
+        padding: 20px;
+    }
+    #buttonbody1{
+        height: 45px;
+        margin: 10px;
+        padding: 2px;
+        width: 180px;
+        color: white;
+        text-align: justify;
+        background-color: green;
+        
+    }
+    .imageg{
+        max-width: 150px;
+    }
+    .imageana{
+        max-width: 350px;
+        margin:5px;
+        padding:5px;
+        height: 100px;
+    }
+    #conana2 h4{
+        font-size: small;
+    }
+    .ana1 h5{
+        font-size: medium;
+    }
+}
+@media(max-width:280px){
+    .imageana{
+        max-width: 200px;
+        height: 100px;
+    }
+
+    #conana2{
+        background-color: white;
+        width: 260px;
+    }
+    #conana2 h4{
+        font-size: smaller;
+    }
+    .lastdiv{
+        padding-top: 5px;
+    
+    }
+    .last{
+        font-size: smaller;
+    }
+    #conana2 p{
+        font-size: smaller;
+    }
+    .description1{
+        font-size: xx-small;
+        line-height: normal;
+        width: 230px;
+        text-align: justify;
+    }
+    .ana1{
+        padding: 10px;
+        font-size: smaller;
+    }
+.ana1 h5{
+    font-size: small;
+}
+#conana1{
+    background-color: cornsilk;
+    height: 1860px;
+}
+}
+
+@media(min-width:500px) and (max-width:650px){
+    .description1{
+        font-size: small;
+        line-height: normal;
+        width: 500px;
+        text-align: center;
+    }
+    .lastdiv{
+        padding-top: 5px;
+    
+    }
+    
+    #conana1{
+        background-color: cornsilk;
+        height: 2150px;
+    }
+    #conana2{
+        background-color: white;
+        width: 500px;
+    }
+    .container{
+        left:5px;
+        top: 20px;;
+        position:relative;
+        transform:translate(20px, 10px);
+        text-align: center;
+        font-size: 20px;
+        line-height: normal;
+    }
+    .ana1{
+        padding: 5px;
+    }
+    
+    #ana{
+        padding: 5px;
+    }
+    .imageana{
+        width: 450px;
+    }
+    .col-sm-4{
+        height: 50px;
+    }
+    .lastdiv{
+        padding-top: 120px;
+    }
+    #buttonW{
+        padding-bottom: 15px;
+    }
+    
+        
+
+}
+@media(min-width:700px) and (max-width:850px){
+    .description1{
+        left:5px;
+        top: 20px;;
+        position:relative;
+        transform:translate(20px, 10px);
+        text-align: center;
+        font-size:medium;
+        line-height: normal;
+        width: 700px;
+
+    }
+
+}
+/*body*/
+
+.description{
+    left:10px;
+    top: 5px;;
+    position:relative;
+    transform:translate(20px, 10px);
+    text-align: center;
+    font-size: 20px;
+    line-height: normal;
+}
+#test1{
+    text-align: justify;
+}
+#buttonbody1{
+    height: 45px;
+    margin-right: 20px;
+    width: 250px;
+    color: white;
+    text-align: justify;
+    background-color: green;
+}
+#buttonbody2{
+    height: 45px;
+    width: 250px;
+    background-color: white;
+    color: black;
+    text-align: justify;
+}
+
+@media(max-width: 450px){
+    #buttonbody1{
+        height:45px;
+        margin:10px;
+        padding:2px;
+        width:200px;
+        color:white;
+        text-align:center;
+        background-color:green;
+        
+        
+    }
+    #buttonbody2{
+        height:45px;
+        width:185px;
+        margin:10px;
+        padding:2px;
+        background-color: white;
+        color: black;
+        text-align: center;
+       
+    }
+    #text1 h3{
+        text-align: justify;
+        font-size:medium;
+    }
+    #text1 h1{
+        font-size:large;
+        text-align: justify;
+    }
+    #text1 h6{
+        font-size: small;
+        text-align: justify;
+    }
+
+}
+@media(max-width:280px){
+    #buttonbody1{
+        height:45px;
+        margin:10px;
+        padding:2px;
+        width:200px;
+        color:white;
+        text-align:center;
+        background-color:green;
+        
+        
+    }
+    #buttonbody2{
+        height:45px;
+        width:185px;
+        margin:10px;
+        padding:2px;
+        background-color: white;
+        color: black;
+        text-align: center;
+       
+    }
+    #text1 h3{
+        text-align: justify;
+        font-size:small;
+    }
+    #text1 h1{
+        font-size:medium;
+        text-align: justify;
+    }
+    #text1 h6{
+        font-size: smaller;
+        text-align: justify;
+    }
+
+}
+@media(min-width:500px) and (max-width:650px){
+    #buttonbody1{
+        height:45px;
+        margin:10px;
+        padding:2px;
+        width:200px;
+        color:white;
+        text-align:center;
+        background-color:green;
+        
+        
+    }
+    #buttonbody2{
+        height:45px;
+        width:185px;
+        margin:10px;
+        padding:2px;
+        background-color: white;
+        color: black;
+        text-align: center;
+       
+    }
+}
+/*footer*/
