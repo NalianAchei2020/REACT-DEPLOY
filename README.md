@@ -24,8 +24,6 @@
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
@@ -98,13 +96,9 @@ You can deploy this project using:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/NalianAchei2020/Portfolio/issues).
+Feel free to check the [issues page](https://github.com/NalianAchei2020/REACT-DEPLOY/issues).
 
 ## ⭐️ Show your support <a name="support"></a>
 
 If you like this project, please do well to give it a star
 
-
-## 📝 License <a name="license"></a>
-
-This project is [MIT](https://github.com/NalianAchei2020/Portfolio/blob/portfolio-feature/LICENSE) licensed
