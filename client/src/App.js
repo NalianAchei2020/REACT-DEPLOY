@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
 import {BrowserRouter, BrowserRouter as Router, Route, Routes} from 'react-router-dom';
-import {Header} from './Components/Navbar';
-import {Footer} from './Components/Footer';
+import Header from './Components/Navbar'
+import Footer from './Components/Footer';
 import {Multistep} from './Components/forms/multi-step';
 import {Signin} from "./Components/forms/signin";
 import {Home} from "./Components/Pages/Home";
